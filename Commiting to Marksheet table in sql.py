@@ -2,9 +2,9 @@ import mysql.connector
 
 conn = mysql.connector.connect(
     host = "localhost",
-    user = "root",
-    password = "Nigger@0509",
-    database = "niggerdb"
+    user = "Your_username",
+    password = "Your_Password",
+    database = "Database_You_wanna_use"
 )
 
 cursor = conn.cursor()
